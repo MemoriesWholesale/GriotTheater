@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    height: 100%;
+}
+
+#navbar{
+    color: white;
+    margin-right: none;
+    padding-right: none;
+}
+#navbar a{
+    color: white;
+    font-size: small;
+}
+
+#main-title{
+    align-self: flex-end;
+    justify-self:last baseline;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#hero-image{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-image: url(../css/images/theater-image-background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 9em;
+}
+
+
+
+#date{
+    border: .5px solid;
+    margin-right: 20%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    background-color: rgb(236, 236, 236);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#tickets{
+    flex-direction: column;
+    padding-left: 15%;
+    background-color: white;
+}
+
+.ticket{
+    flex-direction: row;
+}
+
+.tickinfo{
+    padding-left: 5%;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.play{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.detail{
+    margin-bottom: 7%;
+}
+
+.buttbox{
+    padding-left: 15%;
+    height:max-content;
+    flex-direction: column;
+}
+
+.butt{
+    margin-bottom: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:rgb(235, 200, 57);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px rgb(172, 167, 21);
+}
+
+#info{
+    color: white;
+}
+
+#map{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.bottomhead{
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 10%;
+}
+
+.bottomsmall{
+    font-size: x-small;
+    margin-bottom: 10%;
+}
+
+hr{
+    margin-right: 20%;
+    border-top: 1px solid
+}
